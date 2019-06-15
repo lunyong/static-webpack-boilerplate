@@ -1,0 +1,44 @@
+{
+  "name": "static-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "基于webpack搭建的输出纯静态页面的开发环境和范例",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --watch-content-base",
+    "build": "cross-env NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^4.0.0-beta.5",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.7.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "underscore-template-loader": "^1.0.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1",
+    "webpack-glob-entry": "^2.1.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "browserslist": [
+    ">1%",
+    "IE 10"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunyong/static-webpack-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lunyong/static-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/lunyong/static-webpack-boilerplate#readme"
+}
